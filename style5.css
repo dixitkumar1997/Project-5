@@ -1,0 +1,845 @@
+body {
+    margin: 0px;
+}
+
+#first {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(135deg, rgba(60, 179, 143, 0.85), rgba(19, 29, 99, 0.85)), url("./startup.jpg");
+    background-size: cover;
+}
+
+.firsttop h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+    margin: 0px;
+}
+.firsttop h1 span {
+    color: greenyellow;
+}
+.firsttop hr {
+    width: 70%;
+    border-color: rgba(238, 238, 238, 0.2);
+    margin-top: 40px;
+}
+
+.first1 {
+    width: 70%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.first1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px
+}
+
+#first hr {
+    width: 70%;
+    border-color: rgba(238, 238, 238, 0.2);
+}
+
+.firstmid {
+    width: 70%;
+    height: 60%;
+    margin: auto;
+}
+
+.firstmid h2 {
+    text-align: center;
+    color: white;
+}
+
+.firstmid h1 {
+    margin: auto;
+    width: 50%;
+    font-size: 65px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+.firstmid p {
+    width: 60%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.firstmidbtn {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.firstmidbtn .btn1 {
+    width: 120px;
+    height: 30px;
+    border: 1px solid greenyellow;
+    border-radius: 18px;
+    background-color: greenyellow;
+}
+
+.firstmid .btn2 {
+    width: 120px;
+    height: 30px;
+    border-radius: 18px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#second {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(224, 224, 224);
+}
+
+.context {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.context .blackh5 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.context .blackh2 {
+    text-align: center;
+    font-size: 27px;
+    color: black;
+}
+
+.context hr {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.secondmid {
+    width: 70%;
+    margin: 60px auto;
+}
+
+.secondmid p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.secondbottom {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondbottom button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#third {
+    width: 100%;
+    height: 700px;
+}
+
+.thirdmid {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 0px auto;
+}
+
+.thirdmid1 {
+    width: 25%;
+    height: 100%;
+}
+
+.thirdmid1 img {
+    width: 100%;
+    height: 40%;
+}
+
+.thirdmid1 h3 {
+    text-align: center;
+    color: black;
+}
+
+.thirdmid1 h4 {
+    text-align: center;
+}
+
+.thirdmid1 p {
+    text-align: justify;
+    color: black;
+}
+
+.thirdmid1icons {
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.thirdbottom {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.thirdbottom button {
+    width: 150px;
+    height: 25px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#fourth {
+    width: 100%;
+    height: 1500px;
+    background-image: linear-gradient(rgba(48, 63, 159, 0.8), rgba(48, 63, 159, 0.8)), url("./dubai\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.context .whiteh5 {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.context .whiteh2 {
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+.context hr {
+    border-color: rgba(255, 255, 255, 0.3)
+}
+
+.fourthmid {
+    width: 70%;
+    height: 85%;
+    background-color: white;
+    margin: auto;
+}
+
+.fourthmidtop {
+    width: 100%;
+    height: 7%;
+    background-color: rgb(88, 131, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthmidtop h2 {
+    font-size: 30px;
+}
+
+.fourthmidsection {
+    width: 80%;
+    height: 75%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthmidsectionleft {
+    width: 16%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourthmidsectionleft img {
+    width: 120px;
+    height: 100px;
+}
+
+.fourthmidsectionmid {
+    width: 5%;
+    height: 100%;
+}
+
+.firstpart {
+    width: 100%;
+    height: 39.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 20%;
+    height: 3%;
+    border: 3px solid rgb(88, 131, 33);
+    border-radius: 50%;
+}
+
+.hr {
+    height: 100%;
+    display: flex;
+    margin: 3px;
+    justify-content: center;
+}
+
+.hr hr {
+    margin: 0px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.hr3 {
+    height: 46%;
+    display: flex;
+    margin: 3px;
+    justify-content: center;
+}
+
+.hr3 hr {
+    margin: 0px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.fourthmidsectionright {
+    width: 70%;
+    height: 100%;
+}
+
+.fourthmidsectionright1 {
+    width: 100%;
+    height: 39.3%
+}
+
+.fourthmidsectionright1 h3 {
+    margin: 0px;
+    font-size: 25px;
+    color: black;
+    text-align: start;
+}
+
+.fourthmidsectionright1 .clrtext {
+    border-bottom: 2px solid rgb(128, 209, 22);
+    color: rgb(127, 185, 50);
+    font-size: 20px;
+}
+
+.fourthmidsectionright1 h2 {
+    color: black;
+    font-size: 25px;
+}
+
+.fourthmidsectionright1 h2 .lowfont {
+    font-size: 16px;
+    text-align: center;
+}
+
+.fourthmidsectionright1 p {
+    font-size: 18px;
+    margin: 4px;
+    color: black;
+    text-align: start;
+}
+
+.fourthmidbottom {
+    margin-left: 325px;
+    margin-top: 80px;
+}
+
+.fourthmidbottom button {
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+#fifth {
+    width: 100%;
+    height: 550px;
+}
+
+.fifthsection {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0px auto;
+}
+
+.fifthsection1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifthsection1 .fa-solid {
+    font-size: 85px;
+    color: rgb(88, 131, 33);
+}
+
+.fifthsection1 h6 {
+    font-size: 21px;
+    margin: 15px 0px 0px 0px;
+}
+
+.fifthsection1 p {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.fifthsection1btn {
+    margin-top: 30px;
+}
+
+.fifthsection1btn button {
+    width: 150px;
+    height: 25px;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+#sixth {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(48, 63, 159, 0.8), rgba(48, 63, 159, 0.8)), url("./Trusses-Auckland-Harbour-Bridge-New-Zealand.webp");
+    background-size: cover;
+}
+
+.sixthsection {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.sixthsection1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sixthsection1 h1 {
+    font-size: 65px;
+    color: rgb(128, 209, 22);
+    margin-bottom: 5px;
+}
+
+.sixthsection1 h3 {
+    color: white;
+    margin-top: 5px;
+}
+#seventh{
+    width: 100%;
+    height: 800px;
+}
+
+.seventhcentre {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    margin: auto;
+    gap: 25px;
+}
+
+.seventhcentre .img1 {
+    width: 50%;
+    height: 50%;
+}
+
+.seventhcentre .img2 {
+    width: 42%;
+    height: 50%;
+}
+
+.seventhcentre .img3 {
+    width: 26%;
+    height: 50%;
+}
+
+.seventhcentre .img4 {
+    width: 30.5%;
+    height: 50%;
+}
+
+.seventhcentre .img5 {
+    width: 30%;
+    height: 50%;
+}
+
+#seventh button {
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50px;
+    color: gray;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+#eighth{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(224, 224, 224);
+}
+#eighth .eighthtoptxt p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+}
+.eighthsection{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 0px auto;
+}
+.eighthsection1{
+    width: 30%;
+    background-color: white;
+    height: 100%;
+}
+.eighthsection1 p{
+    text-align: center;
+    width: 80%;
+    margin: 15px auto 0px auto;
+    color: black;
+}
+.eighthsection1 h5{
+    padding-top: 25px;
+    color: black;
+    text-align: center;
+}
+.eighthsection1 hr{
+    width: 80%;
+    border-color: rgba(255,255,255, 0.5);
+}
+.eighthsection1 h3{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+.eighthsection1 button{
+    border: 1px solid rgb(107, 184, 8);
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    color: rgb(102, 170, 14);
+    margin-top: 15px ;
+    margin-left: 78px;
+}
+.eighthsection2{
+    width: 30%;
+    background-color: rgb(102, 170, 14);
+    height: 100%;
+}
+.eighthsection2 h5,h3,p{
+    text-align: center;
+    width: 80%;
+    margin:15px auto 0px auto;
+    color: white;
+}
+.eighthsection2 h5{
+    padding-top: 0px;
+    width: 80px;
+    margin-top: 50px;
+}
+.eighthsection2 hr{
+    width: 80%;
+    border-color: rgba(0,0,0, 0.5);
+}
+.eighthsection2 h3{
+    width: 80px;
+    font-size: 45px;
+    margin: 20px 0px 0px 100px;
+}
+.eighthsection2 button{
+    border: 1px solid rgb(107, 184, 8);
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    color: rgb(102, 170, 14);
+    margin-top: 15px ;
+    margin-left: 78px;
+}
+.eighthbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.eighthbottom button{
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+#tenth{
+    width: 100%;
+    height: 500px;
+}
+.tenthsection h6{
+    width: 70%;
+    text-align: center;
+    color: black;
+    margin: 40px auto;
+    font-size: 15px;
+}
+.tenthsection1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 30px auto;
+    gap: 10px;
+}
+.tenthsection1 .fa-solid{
+    color: rgb(158, 233, 60);
+}
+.tenthbtn{
+margin-left: 210px;
+margin-top: 50px;
+}
+.tenthbtn button{
+    width: 120px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+#eleventh{
+    height: 600px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("./boy\ with\ laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eleventhicon{
+ width: 60px;
+ height: 60px;
+ background-color: rgb(102, 170, 14);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+}
+.eleventhicon .fa-solid{
+    font-size: 25px;
+}
+#twelveth{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(102, 170, 14);
+}
+.twelvethsection{
+    height: 100%;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.twelvethsection .fa-solid{
+    font-size: 40px;
+}
+.twelvethsection h2{
+    color: white;
+    font-size: 27px;
+}
+.twelvethsection button{
+    width: 120px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+#thirteenth{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+}
+#thirteenth .context hr{
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.thirteenthsection{
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.thirteenthsection .fa-solid{
+    color: rgb(102, 170, 14);
+    font-size: 30px;
+}
+.thirteenthsection p{
+    color: black;
+    text-align: center;
+}
+.thirteenthsection h3{
+    color: black;
+    font-size: 22px;
+}
+.thirteenthsection h6{
+    text-align: center;
+    font-size: 17px;
+}
+#fourteenth{
+    width: 100%;
+    height: 700px;
+}
+.fourteenthsection{
+    margin: 30px auto 0px auto;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fourteenthsection img{
+    width: 27%;
+    height: 40%;
+}
+.fourteenthbottom{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourteenthbottom button{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50px;
+    color: gray;
+    margin-top: 20px;
+}
+#footer{
+    width: 100%;
+    background-color: #4d012b;
+    height: 450px;
+}
+.footersection{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footersectionleft{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footersectionlefttop h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+    margin: 0px;
+}
+.footersectionlefttop span{
+    color: greenyellow;
+}
+.footersectionleft h2{
+    color: white;
+}
+.footersectionleft p{
+    text-align: start;
+    margin: 0px;
+}
+.footersectionleftbtn button{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50px;
+    color: gray;
+    margin-top: 30px;
+}
+.footersectionright{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footersectionright .white{
+    color: white;
+}
+.footersectionright .text{
+margin: 0px;
+color: white;
+}
+.footersectionright ul{
+    padding-left: 18px;
+    margin: 0px;
+}
+.footersectionright ul li{
+    color: #FF6F00;
+}
+.footersectionright ul li span{
+color: white;
+}
+.footersectionrighticons .fa-brands{
+    border: 10px solid grey;
+}
+#last{
+    width: 100%;
+    height: 80px;
+    background-color: #31031c;
+}
+.lastsection{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastsection h5{
+    color: white;
+}
+.lastsection a{
+    color: white;
+}
+
